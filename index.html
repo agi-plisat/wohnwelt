@@ -2,43 +2,99 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<title>My Test Website</title>
+<title>Dardania Home Deals</title>
 
 <style>
+
 body{
-font-family: Arial;
-background:#f4f4f4;
-text-align:center;
-padding-top:80px;
+font-family:Arial;
+margin:0;
+background:#f2f4f8;
 }
 
-.box{
-background:white;
-padding:40px;
-width:500px;
-margin:auto;
-border-radius:10px;
-box-shadow:0 0 10px rgba(0,0,0,0.2);
+header{
+background:#0f172a;
+color:white;
+text-align:center;
+padding:25px;
 }
+
+.container{
+max-width:1000px;
+margin:auto;
+padding:20px;
+}
+
+.card{
+background:white;
+padding:20px;
+margin:20px 0;
+border-radius:10px;
+box-shadow:0 5px 12px rgba(0,0,0,0.15);
+}
+
+button{
+background:#ff9900;
+border:none;
+padding:12px 18px;
+border-radius:6px;
+cursor:pointer;
+font-weight:bold;
+}
+
+button:hover{
+background:#e68900;
+}
+
+footer{
+background:#0f172a;
+color:white;
+text-align:center;
+padding:15px;
+}
+
 </style>
 
 </head>
 
 <body>
 
-<div class="box">
+<header>
+<h1>Dardania Home Deals</h1>
+<p>Best Smart Products For Your Home</p>
+</header>
 
-<h1>Welcome 🚀</h1>
+<div class="container">
 
-<p>This is my first test affiliate website.</p>
-
-<p>Created successfully with GitHub Pages.</p>
-
-<button onclick="alert('Website works perfectly!')">
-Test Button
+<div class="card">
+<h2>Robot Vacuum Cleaner ⭐⭐⭐⭐⭐</h2>
+<p>Automatic cleaning system with smart navigation.</p>
+<button onclick="window.location.href='https://amazon.com'">
+Buy On Amazon
 </button>
+</div>
+
+<div class="card">
+<h2>Air Fryer XL ⭐⭐⭐⭐⭐</h2>
+<p>Cook healthy meals with less oil.</p>
+<button onclick="window.location.href='https://amazon.com'">
+Buy On Amazon
+</button>
+</div>
+
+<div class="card">
+<h2>LED Desk Lamp ⭐⭐⭐⭐☆</h2>
+<p>Perfect for office and study room.</p>
+<button onclick="window.location.href='https://amazon.com'">
+Buy On Amazon
+</button>
+</div>
 
 </div>
+
+<footer>
+© 2026 Dardania Deals Affiliate Test
+</footer>
 
 </body>
 </html>
